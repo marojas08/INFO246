@@ -16,7 +16,7 @@
       "description": "Premium Windows laptop"
     },
     {
-      "@context": "Http://bestbuy.com",
+      "@context": "http://bestbuy.com",
       "@type": "Computers and Tablets",
       "id": "3",
       "name": "HP Omen 16",
@@ -25,10 +25,18 @@
   ],
    "users": [
     {
-      "@context": "https://schema.org",
+      "@context": "http://bestbuy.com",
       "@type": "Person",
       "id": "1",
       "name": "user 1",
+      "description": "user review",
+      "itemId": "1"
+    },
+    {
+      "@context": "http://bestbuy.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "user 2",
       "description": "some user comment about item",
       "itemId": "1"
     },
