@@ -40,7 +40,6 @@
       "description": "some user comment about item",
       "itemId": "1"
     },
-],
   "collection": {
     "@context": "http://bestbuy.com",
     "@type": "Collection",
