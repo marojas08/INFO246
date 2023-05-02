@@ -1,9 +1,8 @@
-{
-  "post": [
+{{
+  "posts": [
     {
       "id": 1,
-      "title": "laptop"
-      "description": "a device used to type this out"
+      "title": "hello"
     }
   ],
   "profile": {
