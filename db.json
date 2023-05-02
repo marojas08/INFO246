@@ -38,12 +38,12 @@
       "name": "user 2",
       "description": "some user comment about item",
       "itemId": "2"
-    },
+    }
   ],
   "collection": {
     "@context": "http://bestbuy.com",
     "@type": "Collection",
-    "name": "Test API"
-    "about": "A collection of laptops from best buy's website",
+    "name": "Test API",
+    "about": "A collection of laptops from best buys website"
   }
 }
