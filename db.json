@@ -1,49 +1,13 @@
-{
-  "items": [
-    {
-      "@context": "https://bestbuy.com",
-      "@type": "Computers and Tablets",
-      "id": "1",
-      "name": "Macbook Pro",
-      "description": "Apples premium laptop"
-    },
-    {
-      "@context": "http://bestbuy.com",
-      "@type": "Computers and Tablets",
-      "id": "2",
-      "name": "Dell XPS 13",
-      "description": "Premium Windows laptop"
-    },
-    {
-      "@context": "http://bestbuy.com",
-      "@type": "Computers and Tablets",
-      "id": "3",
-      "name": "HP Omen 16",
-      "description": "Windows budget gaming laptop"
-    }
-  ],
-   "users": [
-    {
-      "@context": "http://bestbuy.com",
-      "@type": "Person",
-      "id": "1",
-      "name": "user 1",
-      "description": "user review",
-      "itemId": "1"
-    },
-    {
-      "@context": "http://bestbuy.org",
-      "@type": "Person",
-      "id": "2",
-      "name": "user 2",
-      "description": "some user comment about item",
-      "itemId": "1"
-    },
-  ],
-  "collection": {
-    "@context": "http://bestbuy.com",
-    "@type": "Collection",
-    "name": "Test API"
-    "about": "A collection of laptops from best buy's website",
-  }
-}
+fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'POST',
+  body: JSON.stringify({
+    title: 'laptop',
+    body: 'this is a laptop',
+    userId: 1,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
