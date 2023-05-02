@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Macbook Pro"
+      "description": "Apple's premium laptop"
+    },
+    {
+      "id": 2,
+      "title": "Dell XPS"
+      "description": "Windows Premium Laptop"
+    },
+    {
+      "id":3
+      "title": "HP Omen"
+      "description": "Windows Budget Gaming Laptop"
+      
+      
+  "profile": {
+    "name": "User 1"
+  }
+ 
+}
